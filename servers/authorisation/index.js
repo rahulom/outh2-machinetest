@@ -1,3 +1,8 @@
+/***
+ * Server file for Authorizaiton
+ *
+ */
+
 const expressRoute = require("express");
 const app = expressRoute();
 const { validateToken } = require("../../helpers/accesstoken");

@@ -1,3 +1,8 @@
+/***
+ * Program start file
+ * Create the servers for auth and authorization requests
+ */
+
 require('dotenv').config({path:__dirname+'/.env'});
 
 const { app: authServer } = require("./servers/authenticate");

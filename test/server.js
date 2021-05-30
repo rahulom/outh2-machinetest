@@ -1,3 +1,7 @@
+/**
+ * Simple test program using Chai
+ * To test the exisiting two apis in  the project
+ */
 const chai = require("chai");
 const chaiHttp = require("chai-http");
 const server = require("../index");
@@ -25,7 +29,6 @@ function testLogin() {
 }
 
 //Testing Autorisation
-
 function testAuth(token){
     chai
     .request(server.authorisationServer)
