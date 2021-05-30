@@ -1,0 +1,21 @@
+{
+  "name": "oauth2test",
+  "version": "1.0.0",
+  "description": "Simple Oauth2 implimentation ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/server.js"
+  },
+  "author": "rahul <rahulom666@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.4.0"
+  }
+}
