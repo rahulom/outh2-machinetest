@@ -5,6 +5,10 @@
 
 require('dotenv').config({path:__dirname+'/.env'});
 
+if(!process.env.SECRET){
+  throw Error("Please setup the ENV file");
+}
+
 const { app: authServer } = require("./servers/authenticate");
 const { app: authorisationServer } = require("./servers/authorisation");
 
